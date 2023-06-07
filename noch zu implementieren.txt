@@ -1,0 +1,1 @@
+-Reihe voll in GUI und AL, aber weitergespielt-> AL Fehler, gleicher Spieler am Zug, Spieler darf sich nicht ändern! Abgleich mit getHistory(?)

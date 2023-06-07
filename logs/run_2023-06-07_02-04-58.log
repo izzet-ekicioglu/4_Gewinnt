@@ -1,0 +1,732 @@
+02:04:58.770: INFO - game.GUI >> <main()> VierGewinnt-game.GUI V0.001 started.
+02:04:59.392: INFO - game.GUI >> <setupButtons()> game.GUI-Objekte erstellt.
+02:05:05.501: INFO - game.GUI >> <mouseClicked()> Position (1208 | 693)
+02:05:05.502: INFO - game.GUI >> <mouseClicked()> (SCREEN MENUE) Button 'P VS COM' ausgewaehlt.
+02:05:06.834: INFO - game.GUI >> <mouseClicked()> Position (1007 | 558)
+02:05:06.834: INFO - game.GUI >> <mouseClicked()> (SCREEN LEVEL) Button 'EASY' ausgewaehlt.
+02:05:06.836: INFO - game.VierGewinnt >> <start()> VierGewinnt V0.001 gestartet.
+02:05:06.838: INFO - game.VierGewinnt >> <Constructor> Neues Spielfeld erstellt.
+02:05:06.840: INFO - game.VierGewinnt >> <Constructor> Spieler 1 am Zug.
+02:05:06.841: INFO - game.VierGewinnt >> <setDifficulty()> Anzahl Iterationen fuer bestMove() auf 10 gesetzt.
+02:05:08.312: INFO - game.GUI >> <mouseClicked()> Position (343 | 970)
+02:05:08.313: INFO - game.GUI >> <move()> Spalte 0 ausgewaehlt.
+02:05:08.318: INFO - game.VierGewinnt >> <play()> Setze Position (0 | 5) auf 1.
+02:05:08.319: INFO - game.VierGewinnt >> <Constructor> Neues Spielfeld erstellt.
+02:05:08.319: INFO - game.VierGewinnt >> <Constructor> Spieler 2 am Zug.
+02:05:08.320: INFO - game.GUI >> <checkGame()> Gegenpruefung mit game.VG erfolgreich. Beide Felder identisch.
+02:05:14.513: INFO - game.GUI >> <mouseClicked()> Position (522 | 457)
+02:05:14.514: INFO - game.GUI >> <move()> Spalte 1 ausgewaehlt.
+02:05:14.514: INFO - game.VierGewinnt >> <play()> Setze Position (1 | 5) auf -1.
+02:05:14.514: INFO - game.VierGewinnt >> <Constructor> Neues Spielfeld erstellt.
+02:05:14.515: INFO - game.VierGewinnt >> <Constructor> Spieler 1 am Zug.
+02:05:14.515: INFO - game.GUI >> <checkGame()> Gegenpruefung mit game.VG erfolgreich. Beide Felder identisch.
+02:05:16.196: INFO - game.GUI >> <mouseClicked()> Position (705 | 525)
+02:05:16.196: INFO - game.GUI >> <move()> Spalte 2 ausgewaehlt.
+02:05:16.197: INFO - game.VierGewinnt >> <play()> Setze Position (2 | 5) auf 1.
+02:05:16.197: INFO - game.VierGewinnt >> <Constructor> Neues Spielfeld erstellt.
+02:05:16.197: INFO - game.VierGewinnt >> <Constructor> Spieler 2 am Zug.
+02:05:16.197: INFO - game.GUI >> <checkGame()> Gegenpruefung mit game.VG erfolgreich. Beide Felder identisch.
+02:05:17.597: INFO - game.GUI >> <mouseClicked()> Position (1562 | 111)
+02:05:17.597: INFO - game.GUI >> <mouseClicked()> (SCREEN PLAY) Button 'AUTO PLAY' ausgewaehlt.
+02:05:17.619: INFO - game.VierGewinnt >> <bestMove()> Gestartet.
+02:05:17.703: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 1 |
+02:05:17.707: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:17.709: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:17.709: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.722: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 0 || 1 || 1 || 0 |
+02:05:17.722: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.725: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 2 || 1 || 1 || 2 |
+02:05:17.726: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 80%
+02:05:17.752: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:17.753: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.753: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 0 || 0 || 0 || 2 |
+02:05:17.754: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.765: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 2 || 3 || 1 |
+02:05:17.765: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:17.783: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 3 || 0 || 0 || 0 || 0 || 0 |
+02:05:17.783: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.800: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 0 || 0 || 0 || 0 |
+02:05:17.800: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:17.801: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 3 || 0 || 1 || 2 || 0 || 1 |
+02:05:17.801: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:17.797: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 1 || 1 || 0 || 1 || 1 |
+02:05:17.803: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:17.828: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 1 || 0 |
+02:05:17.828: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.833: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 1 || 0 |
+02:05:17.836: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.837: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 1 || 0 || 0 || 3 |
+02:05:17.837: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:17.843: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 3 || 1 || 1 || 0 |
+02:05:17.843: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 80%
+02:05:17.844: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 0 || 1 || 2 |
+02:05:17.844: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:17.864: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 1 || 0 || 1 || 0 |
+02:05:17.853: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 2 |
+02:05:17.867: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:17.867: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:17.864: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 1 || 0 || 0 || 1 |
+02:05:17.871: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.880: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 0 || 0 || 1 || 0 |
+02:05:17.880: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.881: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 1 || 1 || 1 |
+02:05:17.881: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:17.893: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 1 || 0 |
+02:05:17.893: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:17.893: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 1 || 0 |
+02:05:17.893: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.911: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 2 |
+02:05:17.911: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.912: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:17.912: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:17.923: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:17.923: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:17.925: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 0 || 0 || 2 || 1 |
+02:05:17.925: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:17.929: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:17.930: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.942: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:17.943: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.947: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 2 || 0 || 0 || 1 || 0 |
+02:05:17.947: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:17.954: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 2 |
+02:05:17.954: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:17.954: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 2 || 1 || 1 || 0 |
+02:05:17.956: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:17.957: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 3 || 0 || 1 || 0 |
+02:05:17.957: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:17.965: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 0 || 0 |
+02:05:17.965: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:17.969: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 3 || 0 || 0 || 0 || 0 || 2 || 1 |
+02:05:17.969: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:17.975: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:17.976: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:17.978: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 0 || 0 || 2 || 0 |
+02:05:17.987: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:17.989: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 0 || 0 || 0 || 1 |
+02:05:17.989: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:17.986: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 3 || 1 |
+02:05:17.984: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 2 || 0 |
+02:05:17.991: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:17.991: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.018: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 3 || 0 |
+02:05:18.018: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.020: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.020: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.029: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 2 || 1 || 0 |
+02:05:18.029: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.032: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 2 || 1 || 0 || 0 |
+02:05:18.032: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.033: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 2 || 0 || 0 || 0 || 0 |
+02:05:18.044: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.044: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 0 || 2 || 0 || 0 |
+02:05:18.049: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.043: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 1 || 1 || 0 || 0 |
+02:05:18.051: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.052: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 3 || 0 |
+02:05:18.052: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.049: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 2 || 0 || 0 || 2 |
+02:05:18.059: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.066: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:18.067: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.070: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.071: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.075: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:18.076: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.078: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 1 || 1 || 0 |
+02:05:18.078: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.081: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.082: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.100: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 1 || 1 || 0 || 1 |
+02:05:18.100: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.104: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 3 || 1 |
+02:05:18.104: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.093: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 1 || 1 || 2 |
+02:05:18.107: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.102: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 2 || 1 || 1 || 0 |
+02:05:18.111: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.115: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 1 || 1 |
+02:05:18.124: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.124: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 2 || 0 || 0 |
+02:05:18.124: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.120: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 2 || 1 || 1 |
+02:05:18.123: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 2 || 0 || 1 || 0 |
+02:05:18.131: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.131: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.139: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 2 || 0 || 1 || 1 |
+02:05:18.143: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.144: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.139: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 0 || 0 |
+02:05:18.145: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.146: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.147: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:18.148: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.158: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:18.160: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.166: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 2 || 0 || 1 || 0 || 0 |
+02:05:18.166: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.159: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 1 || 0 || 2 || 0 |
+02:05:18.167: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.168: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 1 || 0 |
+02:05:18.168: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.166: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.173: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.180: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 0 || 1 || 2 |
+02:05:18.181: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.190: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 1 || 2 || 1 || 0 |
+02:05:18.191: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.191: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 2 || 0 || 0 || 0 || 0 |
+02:05:18.190: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 2 || 1 |
+02:05:18.191: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.201: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 1 || 0 || 1 || 0 |
+02:05:18.201: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.191: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.207: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 0 || 1 || 1 || 1 |
+02:05:18.208: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.214: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 2 || 0 || 1 || 0 |
+02:05:18.214: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.215: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 2 || 1 || 0 || 0 |
+02:05:18.215: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.226: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.227: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.238: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.239: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.246: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.246: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.247: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:18.247: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 0%
+02:05:18.261: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 1 || 0 || 1 || 2 |
+02:05:18.263: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:18.263: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.263: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.274: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 2 || 1 |
+02:05:18.283: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.278: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 0 || 1 || 1 || 0 |
+02:05:18.284: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.291: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:18.302: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.293: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 1 || 1 || 0 |
+02:05:18.303: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.282: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.307: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.299: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 2 || 1 || 1 || 1 |
+02:05:18.319: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.322: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 1 || 1 |
+02:05:18.323: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.342: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 2 || 1 || 0 || 1 |
+02:05:18.343: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.347: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 1 || 0 || 2 || 0 |
+02:05:18.347: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.350: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 1 || 1 |
+02:05:18.350: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.356: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 1 || 1 |
+02:05:18.356: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.356: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 2 || 0 || 1 || 0 |
+02:05:18.360: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.367: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 1 || 0 |
+02:05:18.367: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.371: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 0 || 1 || 0 || 2 |
+02:05:18.371: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.374: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 2 |
+02:05:18.377: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 0 |
+02:05:18.377: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.382: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 2 || 0 || 1 || 0 || 0 |
+02:05:18.383: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.390: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:18.391: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.392: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 2 || 1 |
+02:05:18.392: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.391: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.398: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.392: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.401: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:18.401: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.406: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 1 || 1 || 3 |
+02:05:18.406: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.410: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 0 || 0 || 1 || 1 |
+02:05:18.410: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.421: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 1 || 0 |
+02:05:18.421: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.421: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.421: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.429: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 2 || 1 || 0 || 1 || 0 |
+02:05:18.429: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.429: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 1 || 2 |
+02:05:18.430: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.433: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 0 || 0 || 0 || 3 |
+02:05:18.433: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.451: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:18.452: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:18.453: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.453: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.456: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:18.456: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.458: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 2 || 0 |
+02:05:18.458: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.464: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 1 || 0 |
+02:05:18.464: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.468: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:18.468: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.476: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 2 || 2 || 1 || 0 || 1 || 0 |
+02:05:18.477: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 80%
+02:05:18.478: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 2 || 1 || 1 || 0 |
+02:05:18.478: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.481: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 0 || 2 || 0 || 0 |
+02:05:18.481: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.484: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.485: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.491: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 2 || 1 || 0 || 0 || 0 |
+02:05:18.491: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.491: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 1 || 0 |
+02:05:18.492: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.493: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 1 || 2 |
+02:05:18.494: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.497: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 2 || 1 || 0 |
+02:05:18.497: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.502: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 2 || 0 |
+02:05:18.502: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.506: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 0 |
+02:05:18.506: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.510: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.515: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.518: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.518: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.521: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:18.521: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.514: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.522: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.538: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 1 || 1 || 0 || 0 |
+02:05:18.538: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.541: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 1 || 1 || 1 |
+02:05:18.541: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.542: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 2 || 0 || 0 || 2 || 0 |
+02:05:18.542: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.546: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.546: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.548: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:18.548: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.548: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 1 || 1 || 0 || 0 |
+02:05:18.548: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.550: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 0 || 0 || 0 || 0 |
+02:05:18.550: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.554: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 1 |
+02:05:18.554: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.559: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:18.560: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.560: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.560: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.565: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 2 || 1 || 0 |
+02:05:18.565: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.566: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 2 |
+02:05:18.567: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 1 || 1 || 0 || 1 |
+02:05:18.567: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.567: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.568: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.566: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.573: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.573: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.577: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 2 |
+02:05:18.577: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.578: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:18.578: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.582: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.584: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.585: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.585: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 3 || 1 || 1 || 0 || 0 || 1 || 1 |
+02:05:18.586: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.586: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.586: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.592: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:18.594: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 1 || 1 |
+02:05:18.593: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.595: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.595: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.595: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.596: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.604: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 2 || 1 || 0 || 0 |
+02:05:18.604: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.611: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.611: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.612: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 1 || 0 |
+02:05:18.612: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.619: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 1 || 0 |
+02:05:18.619: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.626: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 2 || 1 |
+02:05:18.626: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.630: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.630: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.631: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 1 || 0 || 1 || 1 |
+02:05:18.632: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.635: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 1 || 1 |
+02:05:18.640: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.639: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 2 || 0 || 0 || 1 || 0 || 0 |
+02:05:18.644: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.647: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 0 || 0 |
+02:05:18.647: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.648: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 0 || 1 |
+02:05:18.654: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.656: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:18.656: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.667: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.667: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.675: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 2 || 1 || 1 || 0 |
+02:05:18.675: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.675: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 1 || 1 || 0 |
+02:05:18.675: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.666: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 1 || 1 || 1 |
+02:05:18.678: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.683: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 3 || 0 || 0 || 0 || 0 |
+02:05:18.678: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 1 || 0 || 1 || 0 |
+02:05:18.683: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.683: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.694: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 1 || 0 || 2 || 1 |
+02:05:18.695: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.698: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.698: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.695: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 1 || 1 || 0 || 0 |
+02:05:18.701: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.706: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.706: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.713: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.713: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.714: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 2 || 0 || 0 || 0 || 1 |
+02:05:18.715: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.719: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:18.719: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.722: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 1 || 2 || 1 || 0 |
+02:05:18.722: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.737: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 2 |
+02:05:18.737: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.741: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 2 || 0 |
+02:05:18.741: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.746: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 1 entspricht: 50
+02:05:18.749: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 2 || 1 || 0 |
+02:05:18.749: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.759: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 1 || 1 |
+02:05:18.762: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.762: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 1 || 1 || 0 || 2 |
+02:05:18.763: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:18.762: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 1 || 1 || 1 || 0 |
+02:05:18.760: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.770: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.770: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.784: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 0 || 0 || 0 || 0 |
+02:05:18.784: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.790: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 2 || 2 || 0 |
+02:05:18.790: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.805: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 1 || 1 |
+02:05:18.805: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.812: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 1 || 2 || 0 |
+02:05:18.812: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.815: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 0 || 0 || 1 || 0 |
+02:05:18.815: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.815: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 6 entspricht: 40
+02:05:18.829: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.829: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.841: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 1 || 2 || 0 || 0 |
+02:05:18.842: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.843: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 2 || 1 |
+02:05:18.843: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.848: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 1 || 1 |
+02:05:18.850: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.854: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 5 entspricht: 30
+02:05:18.862: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 1 || 1 |
+02:05:18.863: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.863: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 4 entspricht: 50
+02:05:18.871: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 1 || 1 || 1 || 0 |
+02:05:18.871: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.878: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 3 || 0 || 0 |
+02:05:18.879: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.880: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 0 |
+02:05:18.880: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.892: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 1 || 0 || 1 || 1 |
+02:05:18.891: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:18.903: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.903: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.892: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 3 || 0 || 1 |
+02:05:18.911: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.927: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 1 || 0 || 2 || 0 |
+02:05:18.927: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.945: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:18.953: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.954: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 1 || 0 |
+02:05:18.954: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.952: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 1 || 0 || 0 |
+02:05:18.963: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.972: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 2 || 1 || 0 || 0 || 2 |
+02:05:18.972: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:18.977: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 2 |
+02:05:18.978: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.980: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.981: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:18.981: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:18.981: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.980: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 1 || 0 || 0 |
+02:05:18.982: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.983: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:18.983: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:18.991: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 2 |
+02:05:18.991: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:18.992: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 1 || 0 || 0 || 0 |
+02:05:18.992: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.993: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 2 || 1 |
+02:05:18.994: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:18.995: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 2 || 1 || 0 |
+02:05:18.996: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:18.998: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 3 || 0 || 1 || 0 |
+02:05:18.998: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.000: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 1 || 0 || 1 |
+02:05:19.000: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.001: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.002: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.005: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:19.005: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.009: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 0 || 1 || 1 || 1 |
+02:05:19.009: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 1 || 0 || 0 |
+02:05:19.009: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.009: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.014: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 0 || 1 || 0 || 0 |
+02:05:19.014: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.016: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 1 || 1 || 2 |
+02:05:19.016: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.017: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 0 || 1 |
+02:05:19.017: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.017: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.018: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.019: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 1 || 1 |
+02:05:19.019: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.021: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:19.021: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.026: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:19.026: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.028: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 2 || 0 || 1 |
+02:05:19.028: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.032: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.032: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.033: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 2 || 0 || 0 || 0 |
+02:05:19.033: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.035: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 0 || 0 |
+02:05:19.035: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.036: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 0 || 0 || 1 || 0 |
+02:05:19.036: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.038: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.038: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.041: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:19.041: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.046: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 1 |
+02:05:19.046: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.048: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 1 || 0 || 1 || 0 || 0 |
+02:05:19.048: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.055: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 1 || 0 || 0 || 0 |
+02:05:19.055: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.060: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 0 || 0 || 0 || 1 |
+02:05:19.061: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.062: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 0 || 1 || 2 |
+02:05:19.062: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.066: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 1 || 0 |
+02:05:19.066: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.069: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 0 || 1 || 0 |
+02:05:19.069: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.072: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:19.072: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.074: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 3 || 2 || 1 || 0 || 1 || 0 || 0 |
+02:05:19.075: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:19.076: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:19.076: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.078: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 0 || 0 || 1 || 0 |
+02:05:19.078: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.089: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 0 || 1 || 2 || 0 |
+02:05:19.092: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.094: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 2 || 1 || 1 |
+02:05:19.091: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 4 || 0 || 0 |
+02:05:19.095: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.095: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.101: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 2 || 0 || 2 || 1 || 0 |
+02:05:19.101: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.107: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 1 || 0 |
+02:05:19.107: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.109: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 0 || 0 || 0 || 1 |
+02:05:19.109: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.107: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 0 || 0 || 0 |
+02:05:19.115: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 0 || 0 || 0 || 0 || 1 |
+02:05:19.115: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.115: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.122: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 1 || 0 |
+02:05:19.123: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.123: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 2 || 1 |
+02:05:19.123: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.127: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 0 || 0 || 0 || 1 |
+02:05:19.127: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.130: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 1 || 0 || 1 || 1 |
+02:05:19.130: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.130: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:19.130: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.136: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 0 || 0 || 2 || 2 |
+02:05:19.136: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.142: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:19.145: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.143: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 1 || 0 |
+02:05:19.147: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.151: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 1 || 0 || 0 || 2 || 1 |
+02:05:19.151: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:19.154: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 2 || 0 || 0 || 2 |
+02:05:19.154: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.156: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 1 || 0 |
+02:05:19.159: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.159: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 1 || 0 || 0 || 1 || 1 |
+02:05:19.159: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.164: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 1 |
+02:05:19.164: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.171: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 1 || 0 || 0 || 1 |
+02:05:19.172: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.166: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 0 || 0 || 2 || 0 |
+02:05:19.175: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.169: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.175: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 0%
+02:05:19.181: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 2 || 1 || 0 || 1 || 1 || 0 |
+02:05:19.181: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.184: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 3 || 1 |
+02:05:19.184: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:19.188: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.189: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.194: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 2 || 0 || 0 || 0 |
+02:05:19.195: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 2 || 0 || 0 || 1 |
+02:05:19.195: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 4 || 0 || 0 || 1 || 0 || 0 |
+02:05:19.195: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.195: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.197: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 1 || 2 |
+02:05:19.195: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.197: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.206: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.207: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.208: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 0 || 0 || 0 |
+02:05:19.209: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.212: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.212: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.213: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 1 || 0 |
+02:05:19.214: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.216: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 1 || 2 |
+02:05:19.216: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.214: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 1 || 0 || 0 || 0 || 2 |
+02:05:19.216: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.217: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 2 || 4 |
+02:05:19.217: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.221: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.221: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 0%
+02:05:19.225: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 2 || 1 || 0 || 0 |
+02:05:19.225: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.228: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.228: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.228: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 0 || 0 |
+02:05:19.228: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.232: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 0 || 0 || 0 || 1 |
+02:05:19.232: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.233: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 2 || 1 |
+02:05:19.233: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.236: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 1 || 0 || 0 || 1 |
+02:05:19.236: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.239: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 1 || 1 || 1 || 0 || 0 |
+02:05:19.239: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.241: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 0 || 1 |
+02:05:19.241: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.243: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 2 || 0 |
+02:05:19.243: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.244: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 1 || 2 || 0 || 0 || 0 |
+02:05:19.244: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.244: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 3 entspricht: 40
+02:05:19.253: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 2 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.253: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.259: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 1 || 1 || 0 |
+02:05:19.259: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.258: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 2 || 0 |
+02:05:19.266: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.249: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 1 || 0 || 0 |
+02:05:19.269: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.266: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 0 || 1 || 0 || 2 |
+02:05:19.276: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.280: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 1 || 0 || 0 || 1 |
+02:05:19.280: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 1 || 0 || 1 |
+02:05:19.280: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.280: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.275: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 0 || 2 || 0 || 0 |
+02:05:19.282: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 0 || 0 || 0 |
+02:05:19.282: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.287: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 0 |
+02:05:19.287: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 10%
+02:05:19.282: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.293: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 1 || 1 || 0 || 1 |
+02:05:19.296: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.296: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:19.296: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.294: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 0 || 0 || 0 |
+02:05:19.295: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 2 || 1 |
+02:05:19.298: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.298: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.308: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 0 || 2 || 1 |
+02:05:19.315: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.310: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.315: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:19.316: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.317: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 0 || 2 || 0 || 2 |
+02:05:19.317: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.316: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.323: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 2 || 0 || 0 |
+02:05:19.328: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.328: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 0 || 2 |
+02:05:19.335: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.338: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 3 || 1 || 0 || 1 || 0 || 0 |
+02:05:19.338: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.335: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 0 || 0 || 1 |
+02:05:19.341: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 1 || 2 |
+02:05:19.342: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.342: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.352: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 2 || 0 || 0 || 1 |
+02:05:19.352: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.355: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 0 || 0 || 0 || 0 |
+02:05:19.355: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.359: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 3 || 0 || 1 || 0 || 1 || 0 |
+02:05:19.360: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.349: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 1 || 1 || 1 |
+02:05:19.360: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.372: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 1 || 0 || 1 || 0 || 1 || 1 |
+02:05:19.372: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 60%
+02:05:19.381: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 0 || 1 || 0 || 1 |
+02:05:19.381: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.387: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 1 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.387: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.387: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 0 || 0 || 0 || 1 |
+02:05:19.387: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.388: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 2 || 0 || 0 || 3 || 2 || 0 || 0 |
+02:05:19.388: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 70%
+02:05:19.392: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 1 || 1 || 1 || 0 || 0 |
+02:05:19.393: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.395: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.395: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.400: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 0 || 0 || 0 || 1 || 0 |
+02:05:19.400: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.400: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 0 || 1 || 0 || 1 |
+02:05:19.400: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 30%
+02:05:19.401: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 0 || 1 || 1 || 0 |
+02:05:19.401: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.406: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 0 || 1 || 1 || 0 || 0 |
+02:05:19.406: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.413: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 0 || 1 || 1 || 0 || 1 |
+02:05:19.413: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.416: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 1 || 0 || 0 || 0 || 1 |
+02:05:19.416: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 20%
+02:05:19.416: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 0 entspricht: 40
+02:05:19.420: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 1 || 2 || 1 || 0 || 0 || 0 |
+02:05:19.420: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.424: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 1 || 0 || 1 || 1 || 0 || 0 || 1 |
+02:05:19.424: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 40%
+02:05:19.427: INFO - game.VierGewinnt >> <monteCarlo()> Gewinnmoeglichkeiten in Prozent: -> | 0 || 0 || 2 || 0 || 2 || 1 || 0 |
+02:05:19.427: INFO - game.VierGewinnt >> <monteCarlo()> Durchschnitt: -> 50%
+02:05:19.427: INFO - game.VierGewinnt >> <bestMove()> Gewinnbewertung fuer Spiel in Spalte 2 entspricht: 50
+02:05:19.427: INFO - game.VierGewinnt >> <bestMove()> Gewinnmoeglichkeiten: -> | 40 || 50 || 50 || 40 || 50 || 30 || 40 |
+02:05:19.429: INFO - game.VierGewinnt >> <bestMove()> Ergebnis: Reihe 1. Benoetigte Rechenzeit 1808ms.
+02:05:19.429: INFO - game.VierGewinnt >> <play()> Setze Position (1 | 4) auf -1.
+02:05:19.429: INFO - game.VierGewinnt >> <Constructor> Neues Spielfeld erstellt.
+02:05:19.429: INFO - game.VierGewinnt >> <Constructor> Spieler 1 am Zug.
+02:05:19.429: INFO - game.GUI >> <checkGame()> Gegenpruefung mit game.VG erfolgreich. Beide Felder identisch.
+02:05:21.473: INFO - game.GUI >> <mouseClicked()> Position (217 | 43)
+02:05:21.473: INFO - game.GUI >> <mouseClicked()> (SCREEN PLAY) Button 'Zurueck' ausgewaehlt.

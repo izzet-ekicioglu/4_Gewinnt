@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="log-path">./logs</Property>
+        <Property name="filePattern">${date:yyyy-MM-dd_HH-mm-ss}</Property>
+    </Properties>
+    <Appenders>
+        <File name="File"
+                     fileName="${log-path}/run_${filePattern}.log"
+                     append="false">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS}: %-5level- %logger{36} >> %msg%n</pattern>
+            </PatternLayout>
+        </File>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS}: %-5level- %logger{36} >> %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
